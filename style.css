@@ -37,7 +37,10 @@ header, nav, article, aside, footer {
 }
 
 
+nav{
+    background-image: url(kepek/milky-way-2675322_1920.jpg);
 
+}
 
 
 h1 {
@@ -49,6 +52,7 @@ h1 {
 nav h2 {
     text-align: center;
     font-family:monospace;
+    color: yellow;
 }
 
 nav img {
@@ -68,31 +72,6 @@ header  {
     background-image:url(kepek/unknown.png);
 
 }
-
-header h1 {
-    text
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 400px){
