@@ -1,0 +1,107 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:"h h h " 
+                        "n n n"
+                        "a a as"   
+                        "f  f  f";
+    
+}
+header {
+    grid-area: h;
+
+
+}
+nav {
+    grid-area: n;
+
+}
+article {
+    grid-area: a;
+
+}
+aside {
+    grid-area: as;
+
+
+}
+footer {
+    grid-area: f;
+
+}
+
+header, nav, article, aside, footer {
+    border: solid 1px black;
+    padding: 10px;
+
+}
+
+
+
+
+
+h1 {
+    text-transform: uppercase;
+    color: yellow;
+    text-align: center;
+    
+}
+nav h2 {
+    text-align: center;
+    font-family:monospace;
+}
+
+nav img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header  {
+    background-image:url(kepek/unknown.png);
+
+}
+
+header h1 {
+    text
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px){
+    main{
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "h"
+                         "n" 
+                         "as"
+                         "a"
+                         "f";
+    }
+}
