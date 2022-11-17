@@ -43,6 +43,17 @@ nav{
 }
 
 
+.beugras{
+    position: relative;
+    animation: kiUgras 2s forwards;
+}
+
+@keyframes kiUgras {
+    from{left: 0}
+    to{left: 100px;}
+
+}
+
 h1 {
     text-transform: uppercase;
     color: yellow;
@@ -84,3 +95,4 @@ header  {
                          "f";
     }
 }
+
