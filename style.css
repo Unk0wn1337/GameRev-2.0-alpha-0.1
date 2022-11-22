@@ -1,3 +1,8 @@
+body {
+    background-color: #18191a;
+
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -27,11 +32,13 @@ aside {
 }
 footer {
     grid-area: f;
-
+    color: white;
+    text-align: center;
+    font-size: larger;
 }
 
 header, nav, article, aside, footer {
-    border: solid 1px black;
+    border: solid 1px white;
     padding: 10px;
 
 }
@@ -88,7 +95,38 @@ header  {
     background-image:url(kepek/unknown.png);
 
 }
+.jatekok {
+    color: white;
 
+
+}
+
+a {
+    text-decoration: none;
+
+}
+a:link {
+    color: red;
+    text-decoration: none;
+}
+  
+  
+  a:visited {
+    color: red;
+    text-decoration: white;
+  }
+  
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+}
+  
+  
+  a:active {
+    color: red;
+    text-decoration: none;
+  }
 
 @media only screen and (max-width: 400px){
     main{

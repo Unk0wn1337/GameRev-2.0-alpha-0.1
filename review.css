@@ -1,0 +1,79 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:"h h h " 
+                        "n n n"
+                        "a a as"   
+                        "f  f  f";
+     }
+header {
+    grid-area: h;
+
+
+}
+nav {
+    grid-area: n;
+
+}
+article {
+    grid-area: a;
+    
+}
+aside {
+    grid-area: as;
+
+
+}
+footer {
+    grid-area: f;
+
+}
+
+header, nav, article, aside, footer {
+    border: solid 5px #242526;
+    padding: 10px;
+    background-color: #18191a;
+    opacity: calc(90%);   
+    height: 10vh;
+    /* width: 15cm; */
+    
+
+}
+
+.backvid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+header h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+
+
+}
+
+nav p {
+    color: white;
+
+}
+article p {
+    color: white;
+
+}
+
+aside p {
+    color: white;
+
+
+}
+
+
+footer p {
+    color: white;
+
+
+}
