@@ -48,9 +48,14 @@ nav{
     animation: kiUgras 2s forwards;
 }
 
+/*@keyframes kiUgras {
+    from{background-color: red;}
+    to{background-color: yellow;}
+
+}*/
 @keyframes kiUgras {
-    from{left: 0}
-    to{left: 100px;}
+    from{width: 480px;}
+    to{width: 1000px;}
 
 }
 
