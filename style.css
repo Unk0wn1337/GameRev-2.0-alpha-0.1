@@ -27,8 +27,8 @@ article {
 }
 aside {
     grid-area: as;
-
-
+    color: white;
+    text-align: center;
 }
 footer {
     grid-area: f;
@@ -105,10 +105,26 @@ header  {
     background-image:url(kepek/unknown.png);
 
 }
-.jatekok {
+.jatekok1 {
     color: white;
-
-
+    width: 50%;
+    float: left;
+    text-align: center;  
+    /* border: solid 1px white;     */
+}
+.jatekok2 {
+    color: white;
+    width: 50%;
+    float: right;
+    text-align: center;  
+    /* border: solid 1px white;     */
+}
+.jatekok3 {
+    color: white;
+    width: 50%;
+    float: left;
+    text-align: center;    
+    /* border: solid 1px white;     */
 }
 
 a {
@@ -138,7 +154,13 @@ a:link {
     text-decoration: none;
   }
 
-@media only screen and (max-width: 400px){
+  aside p {
+    
+    text-align: center;
+    
+  }
+
+  @media only screen and (max-width: 400px){
     main{
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "h"

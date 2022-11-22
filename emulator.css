@@ -1,0 +1,35 @@
+.hatter img {
+ position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1; 
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+a {
+    text-align: center;
+    font-size: larger;
+}  
