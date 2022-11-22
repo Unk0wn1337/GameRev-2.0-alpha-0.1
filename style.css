@@ -52,17 +52,27 @@ nav{
 
 .beugras{
     position: relative;
+    animation: beUgras 2s forwards;
+}
+.kiugras{
+    position: relative;
     animation: kiUgras 2s forwards;
 }
-
 /*@keyframes kiUgras {
     from{background-color: red;}
     to{background-color: yellow;}
 
 }*/
-@keyframes kiUgras {
+@keyframes beUgras {
     from{width: 480px;}
     to{width: 1000px;}
+
+}
+/*comment
+elméletileg működik gyakorlatilag meg :skull:*/
+@keyframes kiUgras {
+    from{width: 1000px;}
+    to{width: 480px;}
 
 }
 
