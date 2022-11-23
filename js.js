@@ -3,6 +3,9 @@ for (let ix = 0; ix < window.innerWidth/128-1; ix++) {
     
 }
 
+function a(){
+    window.open("napiJatek.html")
+}
 function beUgras()
 {
     document.getElementById('egy').classList.add("beugras")
